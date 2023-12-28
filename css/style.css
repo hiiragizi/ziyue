@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: whitesmoke;
+  margin: 0;
+}
+h1 {
+  font-size: 80px;
+  color: brown;
+  /* text-align: center; */
+  background-color: black;
+  background-image: url(../img/rogp.jpg);
+  padding: 0%;
+}
+p {
+  font-size: 80px;
+  /* background-color: aquamarine; */
+  color: black;
+  text-align: center;
+}
+a:hover {
+  color: brown;
+  text-decoration: none;
+}
+a:active {
+  color: brown;
+  text-decoration: none;
+}
+img {
+  height: 500px;
+  width: 575px;
+}
+ul {
+  list-style-type: none;
+  background-color: black;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: yellow;
+  font-size: 1vw;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+div.motherContainer {
+  display: flex;
+}
+div.motherContainer div.left {
+  background-color: #fff4a3;
+  width: 50%;
+  float: left;
+}
+div.motherContainer div.right {
+  background-color: #f0c0c7;
+  width: 50%;
+  float: right;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 30% 35% 35%;
+}
+
+.grid-container > .kkk {
+  background-color: #fff4a3;
+}
+
+.grid-container > .sss {
+  background-color: #f0c0c7;
+}
+
+.grid-container > .aaa {
+  background-color: #d9eee1;
+}
